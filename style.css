@@ -2,6 +2,10 @@ body{
     text-align: center;
 }
 
+.hidden {
+    display: none;
+}
+
 button{
     display: block;
     margin: 10px auto;
@@ -9,3 +13,33 @@ button{
     height: 40px;
     
 }
+
+/* question tansition section */
+
+/* .content-container {
+  border: solid black;
+  overflow: hidden;
+  position: relative;
+  width: 1000px;
+   height: 600px; 
+  margin: 0 auto;
+}
+
+.questions {
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  margin: 150px 0;
+  transition: all 500ms ease;
+  height: 175px;
+  overflow: hidden;
+  display: none; 
+}
+
+.js-question {
+  border: solid yellow;
+  min-width: 1000px;
+  background-position: center center;
+  background-size: cover;
+  margin: 40px 0;
+}  */
