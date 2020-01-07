@@ -18,8 +18,11 @@ const submitButton = document.querySelector('.submit');
 const questionsWindow = document.querySelector('.questions');
 const resultWindow = document.querySelector('.hidden');
 const resultCatName = document.querySelector('.result-cat-name');
+const questionsArray = document.querySelectorAll('.js-question');
+const nextButton = document.querySelector('.nextButton');
+const welcomeWindow = document.querySelector('.welcomeWindow');
 
-
+let currentQuestion = 0;
 let results = [];
 
 // event listener for A button's
@@ -119,9 +122,29 @@ let results = [];
     }
 
 
+// event listener to show questions (Esin gave me the idea, Jen helped me get the functionality to work)
 
+    nextButton.addEventListener("click", showQuestion);
 
+    function showQuestion(){
+        const previousQuestion = currentQuestion - 1;
+        const current = questionsArray[currentQuestion];
+        const previous = questionsArray[previousQuestion];
+        welcomeWindow.style.display = "none";
+        current.style.display = "block";
 
+        if (previous){
+            previous.style.display = "none";
+        }
+        
+        const questionNum = questionsArray.length - 1;
+        if (currentQuestion === questionNum){
+            nextButton.style.display = "none";
+            submitButton.style.display = "block";
+        }
+
+        currentQuestion += 1;
+    }
 
 
 

@@ -1,6 +1,9 @@
 body{
     text-align: center;
 }
+.js-question {
+    display: none;
+}
 
 .hidden {
     display: none;
@@ -13,6 +16,7 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     width: 400px;
+    display: none;
     
 }
 
