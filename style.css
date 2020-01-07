@@ -6,6 +6,26 @@ body{
     display: none;
 }
 
+.submit{
+    background-color: white;
+    border:.25px solid grey;
+    margin: 40px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 400px;
+    
+}
+
+.submit:hover{
+    background-color: pink;
+    border: none;
+    margin: 40px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 400px;
+    color: white;
+}
+
 button{
     display: block;
     margin: 10px auto;
