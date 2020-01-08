@@ -40,6 +40,7 @@ let results = [];
 
     function buttonBClick() {
         results.push("B");
+        buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
     }
 
 
@@ -136,6 +137,9 @@ let results = [];
         current.style.display = "block";
         nextButton.innerText = "next";
         nextButton.classList.add("new-button-style");
+        buttonA.forEach(button => button.style.background = "none");
+        buttonB.forEach(button => button.style.background = "none");
+
 
         if (previous){
             previous.style.display = "none";

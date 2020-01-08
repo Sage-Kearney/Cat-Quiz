@@ -3,17 +3,29 @@
 
 body{
     text-align: center;
-    /* background-image: url(elements/Page-Background-SEIR\ PJ1v2.svg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#daac9a ;
-    /* border: solid black; */
     padding: 200px;
     color: #103437;
     font-family: "Montserrat", sans-serif;
 }
 
+.pink-blob {
+    position: absolute;
+    top: -300px;
+    left: -300px;
+    /* border:solid; */
+    z-index: -1;
+}
 
+.orange-blob {
+    position: absolute;
+    top: -90px;
+    right: -500px;
+    /* border: solid; */
+    z-index: -1;
+}
 
 .hidden {
     display: none;
@@ -82,23 +94,20 @@ button{
 }
 
 .submit{
-    background-color: white;
-    border:.25px solid grey;
+    background-color: #dccbca;    
     margin: 40px auto;
     font-size: 15px;
     text-transform: uppercase;
-    width: 400px;
+    letter-spacing: 4px;
+    color:#103437;
+    width: 450px;
     display: none;
 }
 
 .submit:hover{
-    background-color: pink;
+    background-color:#103437;
     border: none;
-    margin: 40px auto;
-    font-size: 15px;
-    text-transform: uppercase;
-    width: 400px;
-    color: white;
+    color: #dccbca;
 }
 
 
