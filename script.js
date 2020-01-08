@@ -31,6 +31,7 @@ let results = [];
 
     function buttonAClick(){
         results.push("A");
+        buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
     }
 
 

@@ -7,10 +7,111 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#daac9a ;
-    border: solid black;
+    /* border: solid black; */
     padding: 200px;
     color: #103437;
     font-family: "Montserrat", sans-serif;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+/* button styling  */
+button:focus {
+    outline:0;
+}
+/* ^https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
+
+button{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.startButton{
+    margin: 40px auto;
+    background: #dccbca;
+    color:#103437;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    border: none;
+}
+
+.startButton:hover{
+    color: #dccbca;
+    background:#103437;
+}
+
+.nextButton {
+    display: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color:#dccbca;
+    width: 450px;
+}
+
+.nextButton:hover{
+    background: #103437;
+    color:#dccbca;
+}
+
+.js-question {
+    display: none;
+}
+
+.button-A , .button-B {
+    background: none;
+    border: 1.5px solid #dccbca;
+    width: 450px;
+    font-size: 15px;
+    color: #103437;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.button-A:hover , .button-B:hover {
+    border: 1.5px solid #dccbca;
+    width: 450px;
+    font-size: 15px;
+    background:rgba(220,203,203,.3);
+    text-align: left;
+    padding-left: 18px;
+}
+
+.submit{
+    background-color: white;
+    border:.25px solid grey;
+    margin: 40px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 400px;
+    display: none;
+}
+
+.submit:hover{
+    background-color: pink;
+    border: none;
+    margin: 40px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 400px;
+    color: white;
+}
+
+
+/* Headings & p styles */
+
+.js-question h2 {
+    font-size: 40px;
 }
 
 h1, h2, h3 {
@@ -26,44 +127,7 @@ header p {
     font-size: 18px;
 }
 
-.nextButton {
-    display: none;
-}
 
-.js-question {
-    display: none;
+footer p {
+    font-size: 12px;
 }
-
-.hidden {
-    display: none;
-}
-
-.submit{
-    background-color: white;
-    border:.25px solid grey;
-    margin: 40px auto;
-    font-size: 15px;
-    text-transform: uppercase;
-    width: 400px;
-    display: none;
-    
-}
-
-.submit:hover{
-    background-color: pink;
-    border: none;
-    margin: 40px auto;
-    font-size: 15px;
-    text-transform: uppercase;
-    width: 400px;
-    color: white;
-}
-
-button{
-    display: block;
-    margin: 10px auto;
-    width: 250px;
-    height: 40px;
-    
-}
-
