@@ -21,6 +21,7 @@ const resultCatName = document.querySelector('.result-cat-name');
 const questionsArray = document.querySelectorAll('.js-question');
 const nextButton = document.querySelector('.nextButton');
 const welcomeWindow = document.querySelector('.welcomeWindow');
+const startButton = document.querySelector('.startButton');
 
 let currentQuestion = 0;
 let results = [];
@@ -146,13 +147,40 @@ let results = [];
         currentQuestion += 1;
     }
 
+// event listener for start button
+
+startButton.addEventListener("click", startQuiz);
+
+function startQuiz(){
+    const previousQuestion = currentQuestion - 1;
+    const current = questionsArray[currentQuestion];
+    const previous = questionsArray[previousQuestion];
+    welcomeWindow.style.display = "none";
+    current.style.display = "block";
+    nextButton.style.display = "block";
+
+    if (previous) {
+        previous.style.display = "none";
+    } 
+}
 
 
-    /* grab questions/buttons & put them in array with querySelectorAll(js-question)
 
-    loop thorugh the array and set thier display to none to start(could also do in css)
 
-    currentQuestion variable to refer to index number of questionsArry[currentQuestion].style.display = "block"
-        increment to next question (++) */
+
+
+
+
+
+    // User clicks start
+    // Question one displays
+    // User clicks either a or b
+        // result of click gets stored in variable
+        // Question two displays
+    // Repeat until last question(5)
+        // submit button appears
+    // User clicks submit
+    // Results page appears
+
 
         

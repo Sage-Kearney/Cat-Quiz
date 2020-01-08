@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat&display=swap');
+
+
 body{
     text-align: center;
+    /* background-image: url(elements/Page-Background-SEIR\ PJ1v2.svg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#daac9a ;
+    border: solid black;
+    padding: 200px;
+    color: #103437;
+    font-family: "Montserrat", sans-serif;
 }
+
+h1, h2, h3 {
+    font-family: "DM Serif Display", serif;
+    margin: 50px 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.nextButton {
+    display: none;
+}
+
 .js-question {
     display: none;
 }
@@ -38,32 +67,3 @@ button{
     
 }
 
-/* question tansition section */
-
-/* .content-container {
-  border: solid black;
-  overflow: hidden;
-  position: relative;
-  width: 1000px;
-   height: 600px; 
-  margin: 0 auto;
-}
-
-.questions {
-  border: solid red;
-  display: flex;
-  flex-direction: column;
-  margin: 150px 0;
-  transition: all 500ms ease;
-  height: 175px;
-  overflow: hidden;
-  display: none; 
-}
-
-.js-question {
-  border: solid yellow;
-  min-width: 1000px;
-  background-position: center center;
-  background-size: cover;
-  margin: 40px 0;
-}  */
