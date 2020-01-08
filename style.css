@@ -9,6 +9,8 @@ body{
     padding: 200px;
     color: #103437;
     font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .pink-blob {
@@ -21,8 +23,8 @@ body{
 
 .orange-blob {
     position: absolute;
-    top: -90px;
-    right: -500px;
+    top: -300px;
+    right: -600px;
     /* border: solid; */
     z-index: -1;
 }
@@ -141,4 +143,100 @@ header p {
 
 footer p {
     font-size: 12px;
+}
+
+
+/* CATS! */
+
+.cat-one {
+    height: 140px;
+    width: 140px;
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    right:130px;
+    transform: rotate(-22deg);
+    z-index: -2;
+    animation-name: cat1-pop-up;
+    animation-duration: 5s;
+}
+
+.cat-two {
+    height: 140px;
+    width: 140px;
+    background-color: pink;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    transform: rotate(-10deg);
+    z-index: -2;
+    animation-name: cat2-pop-up;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+
+.cat-three {
+    height: 140px;
+    width: 140px;
+    background-color: red;
+    position: absolute;
+    left: 800px;
+    top: 15px;
+    z-index: -2;
+    animation-name: cat3-pop-up;
+    animation-duration: 5s;
+    animation-delay: 7s;
+}
+
+.cat-four {
+    height: 140px;
+    width: 140px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    right:130px;
+    z-index: -2;
+    transform: rotate(-22deg);
+    animation-name: cat4-pop-up;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+
+.cat-five {
+    height: 140px;
+    width: 140px;
+    background-color: yellow;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    transform: rotate(-10deg);
+    z-index: -2;
+    animation-name: cat5-pop-up;
+    animation-duration: 5s;
+    animation-delay: 13s;
+}
+
+@keyframes cat1-pop-up {
+    0% {bottom: 0px;}
+    50% {bottom: 180px;}
+}
+
+@keyframes cat2-pop-up {
+    0%{bottom: 300px;}
+    50%{bottom: 110px}
+}
+
+@keyframes cat3-pop-up {
+    0%{left: 800px;}
+    50%{left: 1030px;}
+}
+
+@keyframes cat4-pop-up {
+    0% {bottom: 0px;}
+    50% {bottom: 180px;}
+}
+
+@keyframes cat5-pop-up {
+    0%{bottom: 300px;}
+    50%{bottom: 110px}
 }
