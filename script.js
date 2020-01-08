@@ -134,6 +134,8 @@ let results = [];
         const previous = questionsArray[previousQuestion];
         welcomeWindow.style.display = "none";
         current.style.display = "block";
+        nextButton.innerText = "next";
+        nextButton.classList.add("new-button-style");
 
         if (previous){
             previous.style.display = "none";
@@ -148,22 +150,7 @@ let results = [];
         currentQuestion += 1;
     }
 
-// event listener for start button
 
-startButton.addEventListener("click", startQuiz);
-
-function startQuiz(){
-    const previousQuestion = currentQuestion - 1;
-    const current = questionsArray[currentQuestion];
-    const previous = questionsArray[previousQuestion];
-    welcomeWindow.style.display = "none";
-    current.style.display = "block";
-    nextButton.style.display = "block";
-
-    if (previous) {
-        previous.style.display = "none";
-    } 
-}
 
 
 

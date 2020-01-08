@@ -33,7 +33,7 @@ button{
     cursor: pointer;
 }
 
-.startButton{
+.nextButton {
     margin: 40px auto;
     background: #dccbca;
     color:#103437;
@@ -43,13 +43,7 @@ button{
     border: none;
 }
 
-.startButton:hover{
-    color: #dccbca;
-    background:#103437;
-}
-
-.nextButton {
-    display: none;
+.new-button-style {
     border: none;
     background: none;
     text-transform: uppercase;
