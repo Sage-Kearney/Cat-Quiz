@@ -154,6 +154,16 @@ footer p {
     font-size: 12px;
 }
 
+footer a{
+    font-style: italic;
+    text-decoration: none;
+    color:#103437;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
 
 /* CATS! */
 
@@ -279,4 +289,115 @@ footer p {
     border: 10px solid #dccbca;
     background-repeat: no-repeat;
 
+}
+
+
+
+
+
+/* Media Querries */
+
+@media screen and (max-width: 400px ){
+    /* start quiz page */
+    body{
+        padding-top: 100px;
+        padding-bottom: 0px;
+        overflow: hidden;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+
+    .welcomeWindow p {
+        width: 250px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+
+    .welcomeWindow p br{
+        display: none;
+    }
+
+    .pink-blob {
+        top: -120px;
+        left:-200px;
+        height: 500px;
+    }
+
+    .orange-blob {
+        top: 250px;
+        right: -90px;
+        transform: rotate(30deg);
+        height: 700px; 
+    }
+
+    .nextButton {
+        width:250px;
+    }
+    .cat-two{
+        transform: rotate(-50deg);
+        top:70px;
+        left:400px;
+        z-index: 3;
+        animation-name: catSideSlide;
+        animation-delay: 0ms;
+    }
+
+    @keyframes catSideSlide{
+        100% {top: 70px; left:280px}
+    }
+
+    .cat-one, .cat-three, .cat-four, .cat-five, .cat-six {
+        display: none;
+    }
+
+    /* Quiz */
+    .questions h2 {
+        font-size: 30px;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .js-question button{
+        width: 300px;
+    }
+
+    .new-button-style {
+        width: 300px;
+    }
+
+    .submit {
+        width: 300px;
+        background-color: #103437;
+        color: #dccbca;
+        border: none;
+    }
+    
+    .results h2 {
+        font-size: 20px;
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .result-cat-name {
+        font-size: 50px;
+        margin-top: 15px;
+    }
+
+    .results img {
+        height: 200px;
+        width: 200px;
+    }
+
+    footer p {
+        width: 300px;
+    }
+}
+
+.smallScreenButton {
+    width: 300px;
 }
