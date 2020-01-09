@@ -6,11 +6,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#daac9a ;
-    padding: 200px 0;
+    padding: 250px 0;
     color: #103437;
     font-family: "Montserrat", sans-serif;
-    /* height: 100vh;
-    overflow: hidden; */
+    height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -73,8 +73,8 @@ button{
 }
 
 .nextButton:hover{
-    background: #dccbca;
-    color:#103437;
+    background: #103437;
+    color:#dccbca;
 }
 
 .js-question {
