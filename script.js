@@ -22,6 +22,7 @@ const questionsArray = document.querySelectorAll('.js-question');
 const nextButton = document.querySelector('.nextButton');
 const welcomeWindow = document.querySelector('.welcomeWindow');
 const startButton = document.querySelector('.startButton');
+const resultsImage = document.querySelector('.result-cat-image');
 
 let currentQuestion = 0;
 let results = [];
@@ -57,70 +58,103 @@ let results = [];
         
         if (finalResult === "AAAAA"){
             resultCatName.innerText = 'Maine Coon';
+            resultsImage.src = "elements/Maine-Coon.png";
         } else if (finalResult === "AAAAB"){
             resultCatName.innerText = 'Japanese Bobtail';
+            resultsImage.src = "elements/Japanese-Bobtail.png";
         } else if (finalResult === "AAABA"){
             resultCatName.innerText = 'Selkirk Rex';
+            resultsImage.src = "elements/Selkirk-Rex.png";
         } else if (finalResult === "AAABB") {
             resultCatName.innerText = 'Siberian';
+            resultsImage.src = "elements/Siberian.png";
         } else if (finalResult === "AABAA") {
             resultCatName.innerText = 'Ragdoll';
+            resultsImage.src = "elements/Ragdoll.png";
         } else if (finalResult === "AABAB") {
             resultCatName.innerText = 'Birman';
+            resultsImage.src = "elements/Birman.png";
         } else if (finalResult === "AABBA") {
             resultCatName.innerText = 'Russian Blue';
+            resultsImage.src = "elements/Russian-Blue.png";
         } else if (finalResult === "AABBB") {
             resultCatName.innerText = 'Himalayan';
+            resultsImage.src = "elements/Himalayan.png";
         } else if (finalResult === "ABAAA") {
             resultCatName.innerText = 'Burmese';
+            resultsImage.src = "elements/Burmese.png";
         } else if (finalResult === "ABAAB") {
             resultCatName.innerText = 'Oriental';
+            resultsImage.src = "elements/Oriental.png";
         } else if (finalResult === "ABABA") {
             resultCatName.innerText = 'Persian';
+            resultsImage.src = "elements/Persian.png";
         } else if (finalResult === "ABABB") {
             resultCatName.innerText = 'Tonkinese';
+            resultsImage.src = "elements/Tonkinese.png";
         } else if (finalResult === "ABBAA") {
             resultCatName.innerText = 'Scotish Fold';
+            resultsImage.src = "elements/Scottish-Fold.png";
         } else if (finalResult === "ABBAB") {
             resultCatName.innerText = 'Sphynx';
+            resultsImage.src = "elements/Sphynx.png";
         } else if (finalResult === "ABBBA") {
             resultCatName.innerText = 'Bombay';
+            resultsImage.src = "elements/Bombay.png";
         } else if (finalResult === "ABBBB") {
             resultCatName.innerText = 'Balinese';
+            resultsImage.src = "elements/Balinese.png";
         } else if (finalResult === "BAAAA") {
             resultCatName.innerText = 'Pixie Bob';
+            resultsImage.src = "elements/Pixie-Bob.png";
         } else if (finalResult === "BAAAB") {
             resultCatName.innerText = 'Siamese';
+            resultsImage.src = "elements/Siamese.png";
         } else if (finalResult === "BAABA") {
             resultCatName.innerText = 'Ocicat';
+            resultsImage.src = "elements/Ocicat.png";
         } else if (finalResult === "BAABB") {
             resultCatName.innerText = 'Snowshoe';
+            resultsImage.src = "elements/Snowshoe.png";
         } else if (finalResult === "BABAA") {
             resultCatName.innerText = 'Savannah';
+            resultsImage.src = "elements/Savannah.png";
         } else if (finalResult === "BABAB") {
             resultCatName.innerText = 'Chausie';
+            resultsImage.src = "elements/Chausie.png";
         } else if (finalResult === "BABBA") {
             resultCatName.innerText = 'American Wirehair';
+            resultsImage.src = "elements/American-Wirehair.png";
         } else if (finalResult === "BABBB") {
             resultCatName.innerText = 'Norwegian Forest Cat';
+            resultsImage.src = "elements/Norwegian-Forest.png";
         } else if (finalResult === "BBAAA") {
             resultCatName.innerText = 'Somali';
+            resultsImage.src = "elements/Somali.png";
         } else if (finalResult === "BBAAB") {
             resultCatName.innerText = 'Turkish Angora';
+            resultsImage.src = "elements/Turkish-Angora.png";
         } else if (finalResult === "BBABA") {
             resultCatName.innerText = 'Chartreux';
+            resultsImage.src = "elements/Chartreux.png";
         } else if (finalResult === "BBABB") {
             resultCatName.innerText = 'Toyger';
+            resultsImage.src = "elements/Toyger.png";
         } else if (finalResult === "BBBAA") {
             resultCatName.innerText = 'Manx';
+            resultsImage.src = "elements/Manx.png";
         } else if (finalResult === "BBBAB") {
             resultCatName.innerText = 'British Shorthair';
+            resultsImage.src = "elements/British-Shorthair.png";
         } else if (results === "BBBBA") {
             resultCatName.innerText = 'York Chocolate';
+            resultsImage.src = "elements/York-Chocolate.png";
         } else if (results === "BBBBB") {
             resultCatName.innerText = 'Nebelung';
+            resultsImage.src = "elements/Neblung.png";
         } else {
             resultCatName.innerText = 'You are a meyowstery';
+            resultsImage.src = "elements/Meowstry.png";
         }
     }
 
