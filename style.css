@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat&display=swap');
 
-/* html {
-    background: url('elements/Regular-Screen-Size-Background.svg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color:#daac9a;
-    overflow: hidden;
-} ^https://css-tricks.com/perfect-full-page-background-image/ */
 
 body{
     background: url('elements/Regular-Screen-Size-Background.svg') no-repeat center center fixed;
@@ -32,6 +23,7 @@ body{
 .content-container .results h2{
     margin-top: 0px;
 }
+
 
 /* button styling  */
 button:focus {
@@ -113,6 +105,7 @@ button{
 }
 
 
+
 /* Headings & p styles */
 
 .js-question h2 {
@@ -162,118 +155,61 @@ footer a:hover{
 
 /* CATS! */
 
-/* .cat-one {
-    background-image: url(elements/Cat-1.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    bottom: 0;
-    right:140px;
-    transform: rotate(-22deg);
-    z-index: -100;
-    animation-name: cat1-pop-up;
-    animation-duration: 5s;
-}
+.cat-one {
+        background-image: url(elements/Cat-1.svg);
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 200px;
+        left: -220px;
+        animation-name: catpopup1;
+        animation-duration: 5s;
+        animation-delay: 7s;
+    }
 
-.cat-two {
-    background-image: url(elements/Cat-2.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    transform: rotate(-190deg);
-    z-index: -2;
-    animation-name: cat2-pop-up;
-    animation-duration: 5s;
-    animation-delay: 4s;
-}
+    @keyframes catpopup1 {
+        0% {left:-220px}
+        50% {left: -50px;}
+    }
 
-.cat-three {
-    background-image: url(elements/Cat-3.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    transform: rotate(90deg);
-    left: 800px;
-    top: 15px;
-    z-index: -2;
-    animation-name: cat3-pop-up;
-    animation-duration: 5s;
-    animation-delay: 7s;
-}
+    .cat-two {
+        background-image: url(elements/Cat-2.svg);
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 100px;
+        left: -220px;
+        animation-name: catpopup2;
+        animation-duration: 5s;
+    }
 
-.cat-four {
-    background-image: url(elements/Cat-4.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    bottom: 0;
-    right:150px;
-    z-index: -2;
-    transform: rotate(-22deg);
-    animation-name: cat4-pop-up;
-    animation-duration: 5s;
-    animation-delay: 10s;
-}
+     @keyframes catpopup2 {
+        0% {left:-220px}
+        50% {left: -40px;}
+    }
 
-.cat-five {
-    background-image: url(elements/Cat-5.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    transform: rotate(-190deg);
-    z-index: -2;
-    animation-name: cat5-pop-up;
-    animation-duration: 5s;
-    animation-delay: 13.5s;
-}
+    .cat-five {
+        background-image: url(elements/Cat-5.svg);
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 10px;
+        left: -230px;
+        animation-name: catpopup5;
+        animation-duration: 5s;
+        animation-delay: 13s;
+    }
 
-.cat-six {
-    background-image: url(elements/Cat-6.svg);
-    height: 140px;
-    width: 140px;
-    position: absolute;
-    transform: rotate(-90deg);
-    right: -40px;
-    top: 160px;
-    z-index: -2;
-    animation-name: cat6-pop-up;
-    animation-duration: 5s;
-    animation-delay: 16s;
-}
+      @keyframes catpopup5 {
+        0% {left:-230px;}
+        50% {left: -30px;}
+    }
 
-@keyframes cat1-pop-up {
-    0% {bottom: 0px;}
-    50% {bottom: 200px;}
-}
 
-@keyframes cat2-pop-up {
-    0%{bottom: 300px;}
-    50%{bottom: 120px}
-}
 
-@keyframes cat3-pop-up {
-    0%{left: 800px;}
-    50%{left: 1030px;}
-}
-
-@keyframes cat4-pop-up {
-    0% {bottom: 0px;}
-    50% {bottom: 200px;}
-}
-
-@keyframes cat5-pop-up {
-    0%{bottom: 300px;}
-    50%{bottom: 120px}
-}
-
-@keyframes cat6-pop-up {
-    0% {right: -40px;}
-    50% {right: 70px;}
-} */
 
 
 /* Results Image */
@@ -324,22 +260,59 @@ footer a:hover{
     .nextButton {
         width:250px;
     }
-    /* .cat-two{
-        transform: rotate(-50deg);
-        top:70px;
-        left:400px;
-        z-index: 3;
-        animation-name: catSideSlide;
-        animation-delay: 0ms;
+
+    .cat-one {
+        background-image: url(elements/Cat-1.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -120px;
+        animation-name: catpopup1;
+        animation-duration: 5s;
     }
 
-    @keyframes catSideSlide{
-        100% {top: 70px; left:280px}
+    @keyframes catpopup1 {
+        0% {left:-120px}
+        50% {left: -50px;}
     }
 
-    .cat-one, .cat-three, .cat-four, .cat-five, .cat-six {
-        display: none;
-    } */
+    .cat-two {
+        background-image: url(elements/Cat-2.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -120px;
+        animation-name: catpopup2;
+        animation-duration: 5s;
+        animation-delay: 7s;
+    }
+
+     @keyframes catpopup2 {
+        0% {left:-120px}
+        50% {left: -40px;}
+    }
+
+    .cat-five {
+        background-image: url(elements/Cat-5.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -130px;
+        animation-name: catpopup5;
+        animation-duration: 5s;
+        animation-delay: 13s;
+    }
+
+      @keyframes catpopup5 {
+        0% {left:-130px;}
+        50% {left: -30px;}
+    }
 
     /* Quiz */
     .questions h2 {
@@ -400,7 +373,7 @@ footer a:hover{
         -o-background-size: cover;
         background-size: cover;
         overflow: hidden;
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 0px;
     }
 
@@ -416,6 +389,60 @@ footer a:hover{
         padding-bottom: 20px;
     }
 
+    .cat-one {
+        background-image: url(elements/Cat-1.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -120px;
+        animation-name: catpopup1;
+        animation-duration: 5s;
+    }
+
+    @keyframes catpopup1 {
+        0% {left:-120px}
+        50% {left: -50px;}
+    }
+
+    .cat-two {
+        background-image: url(elements/Cat-2.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -120px;
+        animation-name: catpopup2;
+        animation-duration: 5s;
+        animation-delay: 7s;
+    }
+
+     @keyframes catpopup2 {
+        0% {left:-120px}
+        50% {left: -40px;}
+    }
+
+    .cat-five {
+        background-image: url(elements/Cat-5.svg);
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -130px;
+        animation-name: catpopup5;
+        animation-duration: 5s;
+        animation-delay: 13s;
+    }
+
+      @keyframes catpopup5 {
+        0% {left:-130px;}
+        50% {left: -30px;}
+    }
+
+
     .submit {
         background-color: #103437;
         color: #dccbca;
@@ -425,6 +452,8 @@ footer a:hover{
         padding-bottom: 60px;
     }
 }
+
+
 
 @media screen and (min-width: 1600px){
 
@@ -454,6 +483,60 @@ footer a:hover{
     .new-button-style {
         width: 450px;
     }
+
+    .cat-one {
+        background-image: url(elements/Cat-1.svg);
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -320px;
+        animation-name: catpopup1;
+        animation-duration: 5s;
+    }
+
+    @keyframes catpopup1 {
+        0% {left:-320px}
+        50% {left: -90px;}
+    }
+
+    .cat-two {
+        background-image: url(elements/Cat-2.svg);
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: -2px;
+        left: -320px;
+        animation-name: catpopup2;
+        animation-duration: 5s;
+        animation-delay: 7s;
+    }
+
+     @keyframes catpopup2 {
+        0% {left:-320px}
+        50% {left: -80px;}
+    }
+
+    .cat-five {
+        background-image: url(elements/Cat-5.svg);
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 0px;
+        left: -320px;
+        animation-name: catpopup5;
+        animation-duration: 5s;
+        animation-delay: 13s;
+    }
+
+      @keyframes catpopup5 {
+        0% {left:-330px;}
+        50% {left: -50px;}
+    }
+
 
     .result-cat-name{
         font-size: 80px; 
