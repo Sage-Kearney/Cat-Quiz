@@ -1,32 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat&display=swap');
 
-
-body{
-    text-align: center;
-    background-repeat: no-repeat;
+html {
+    background: url('elements/Regular-Screen-Size-Background.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color:#daac9a ;
-    padding: 250px 0;
-    color: #103437;
-    font-family: "Montserrat", sans-serif;
-    height: 100vh;
+    background-color:#daac9a;
     overflow: hidden;
 }
 
-
-
-.pink-blob {
-    position: fixed;
-    top: -300px;
-    left: -300px;
-    z-index: -1;
-}
-
-.orange-blob {
-    position: fixed;
-    top: -300px;
-    right: -600px;
-    z-index: -1;
+body{
+    text-align: center;
+    padding: 250px 0;
+    color: #103437;
+    font-family: "Montserrat", sans-serif;
 }
 
 .hidden {
@@ -366,6 +354,10 @@ footer a:hover{
     }
 
     .new-button-style {
+        width: 300px;
+    }
+
+    .button-A:hover {
         width: 300px;
     }
 

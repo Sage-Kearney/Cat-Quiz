@@ -36,7 +36,7 @@ let results = [];
     function buttonAClick(){
         results.push("A");
         buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
-        buttonA.forEach(button => button.style.width = "300px");
+        // buttonA.forEach(button => button.style.width = "300px");
     }
 
 
