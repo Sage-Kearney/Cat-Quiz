@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat&display=swap');
 
-html {
+/* html {
     background: url('elements/Regular-Screen-Size-Background.svg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,9 +8,16 @@ html {
     background-size: cover;
     background-color:#daac9a;
     overflow: hidden;
-}
+} ^https://css-tricks.com/perfect-full-page-background-image/ */
 
 body{
+    background: url('elements/Regular-Screen-Size-Background.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:#daac9a;
+    overflow: hidden;
     text-align: center;
     padding: 250px 0;
     color: #103437;
@@ -29,8 +36,7 @@ body{
 /* button styling  */
 button:focus {
     outline:0;
-}
-/* ^https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
+} /* ^https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
 
 button{
     display: block;
@@ -61,8 +67,8 @@ button{
 }
 
 .nextButton:hover{
-    background: #103437;
-    color:#dccbca;
+    background: #dccbca;
+    color:#103437;
 }
 
 .js-question {
@@ -97,6 +103,7 @@ button{
     color:#103437;
     width: 450px;
     display: none;
+    border: none;
 }
 
 .submit:hover{
@@ -155,7 +162,7 @@ footer a:hover{
 
 /* CATS! */
 
-.cat-one {
+/* .cat-one {
     background-image: url(elements/Cat-1.svg);
     height: 140px;
     width: 140px;
@@ -163,7 +170,7 @@ footer a:hover{
     bottom: 0;
     right:140px;
     transform: rotate(-22deg);
-    z-index: -2;
+    z-index: -100;
     animation-name: cat1-pop-up;
     animation-duration: 5s;
 }
@@ -266,7 +273,7 @@ footer a:hover{
 @keyframes cat6-pop-up {
     0% {right: -40px;}
     50% {right: 70px;}
-}
+} */
 
 
 /* Results Image */
@@ -285,16 +292,23 @@ footer a:hover{
 
 /* Media Querries */
 
-@media screen and (max-width: 400px ){
+@media screen and (max-width: 520px ){
     /* start quiz page */
     body{
+        background: url('elements/Mobile-Background.svg') no-repeat center center fixed;
+        background-color: #daac9a;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
         padding-top: 100px;
         padding-bottom: 0px;
-        overflow: hidden;
     }
     
-    h1{
+    .welcomeWindow h1{
         font-size: 50px;
+        width: 300px;
+        padding-bottom: 30px;
     }
 
     .welcomeWindow p {
@@ -307,23 +321,10 @@ footer a:hover{
         display: none;
     }
 
-    .pink-blob {
-        top: -120px;
-        left:-200px;
-        height: 500px;
-    }
-
-    .orange-blob {
-        top: 250px;
-        right: -90px;
-        transform: rotate(30deg);
-        height: 700px; 
-    }
-
     .nextButton {
         width:250px;
     }
-    .cat-two{
+    /* .cat-two{
         transform: rotate(-50deg);
         top:70px;
         left:400px;
@@ -338,7 +339,7 @@ footer a:hover{
 
     .cat-one, .cat-three, .cat-four, .cat-five, .cat-six {
         display: none;
-    }
+    } */
 
     /* Quiz */
     .questions h2 {
@@ -357,7 +358,7 @@ footer a:hover{
         width: 300px;
     }
 
-    .button-A:hover {
+    .button-A:hover, .button-B:hover {
         width: 300px;
     }
 
@@ -385,11 +386,80 @@ footer a:hover{
         width: 200px;
     }
 
-    footer p {
-        width: 300px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+        body{
+        background: url('elements/Tablet-Background.svg') no-repeat center center fixed;
+        background-color: #daac9a;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 30px;
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .submit {
+        background-color: #103437;
+        color: #dccbca;
+    }
+
+    .results h2 {
+        padding-bottom: 60px;
     }
 }
 
-.smallScreenButton {
-    width: 300px;
+@media screen and (min-width: 1600px){
+
+    body {
+        background: url('elements/XLarge-Screen\ Background.svg') no-repeat center center fixed;
+        background-color: #daac9a;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 300px;
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .welcomeWindow p {
+        font-size: 24px;
+    }
+
+    .nextButton {
+        width: 400px;
+    }
+
+    .new-button-style {
+        width: 450px;
+    }
+
+    .result-cat-name{
+        font-size: 80px; 
+    }
+
+    .results h2 {
+        padding-top: 60px;
+    }
 }

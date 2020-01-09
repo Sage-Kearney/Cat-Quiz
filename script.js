@@ -36,7 +36,6 @@ let results = [];
     function buttonAClick(){
         results.push("A");
         buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
-        // buttonA.forEach(button => button.style.width = "300px");
     }
 
 
@@ -46,7 +45,6 @@ let results = [];
     function buttonBClick() {
         results.push("B");
         buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
-        buttonB.forEach(button => button.style.width = "300px");
     }
 
 // event listener for hover effect for A button's
@@ -112,7 +110,7 @@ let results = [];
             resultCatName.innerText = 'Himalayan';
             resultsImage.src = "elements/Himalayan.png";
             imgCreditWords.innerText = "Photo by iStock";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "ABAAA") {
             resultCatName.innerText = 'Burmese';
@@ -123,13 +121,13 @@ let results = [];
             resultCatName.innerText = 'Oriental';
             resultsImage.src = "elements/Oriental.png";
             imgCreditWords.innerText ="Photo by Alan Thompson, Animal Photography";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "ABABA") {
             resultCatName.innerText = 'Persian';
             resultsImage.src = "elements/Persian.png";
             imgCreditWords.innerText = "Photo by© mdorottya | fotolia.com";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "ABABB") {
             resultCatName.innerText = 'Tonkinese';
@@ -140,13 +138,13 @@ let results = [];
             resultCatName.innerText = 'Scotish Fold';
             resultsImage.src = "elements/Scottish-Fold.png";
             imgCreditWords.innerText = "Photo by muratkoc / E + / Getty Images";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "ABBAB") {
             resultCatName.innerText = 'Sphynx';
             resultsImage.src = "elements/Sphynx.png";
             imgCreditWords.innerText = "Photo by Getty Image";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "ABBBA") {
             resultCatName.innerText = 'Bombay';
@@ -182,7 +180,7 @@ let results = [];
             resultCatName.innerText = 'Savannah';
             resultsImage.src = "elements/Savannah.png";
             imgCredit.innerText = "Photo by Helmi Flick";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "BABAB") {
             resultCatName.innerText = 'Chausie';
@@ -193,7 +191,7 @@ let results = [];
             resultCatName.innerText = 'American Wirehair';
             resultsImage.src = "elements/American-Wirehair.png";
             imgCredit.innerText = "Photo by Tetsu Yamazaki";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "BABBB") {
             resultCatName.innerText = 'Norwegian Forest Cat';
@@ -219,7 +217,7 @@ let results = [];
             resultCatName.innerText = 'Toyger';
             resultsImage.src = "elements/Toyger.png";
             imgCredit.innerText = "Photo by Helmi Flick";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (finalResult === "BBBAA") {
             resultCatName.innerText = 'Manx';
@@ -235,13 +233,13 @@ let results = [];
             resultCatName.innerText = 'York Chocolate';
             resultsImage.src = "elements/York-Chocolate.png";
             imgCredit.innerText = "Photos by Warren Photographic";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else if (results === "BBBBB") {
             resultCatName.innerText = 'Nebelung';
             resultsImage.src = "elements/Neblung.png";
             imgCredit.innerText = "Photos Bantees";
-            imgCredit.innerText.display = "none";
+            imgCredit.style.display = "none";
 
         } else {
             resultCatName.innerText = 'You are a meyowstery';
