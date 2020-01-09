@@ -6,12 +6,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#daac9a ;
-    padding: 200px;
+    padding: 200px 0;
     color: #103437;
     font-family: "Montserrat", sans-serif;
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh;
+    overflow: hidden; */
 }
+
+
 
 .pink-blob {
     position: fixed;
@@ -29,6 +31,11 @@ body{
 
 .hidden {
     display: none;
+}
+
+
+.content-container .results h2{
+    margin-top: 0px;
 }
 
 /* button styling  */
@@ -57,7 +64,7 @@ button{
 
 .new-button-style {
     border: none;
-    background:rgba(220, 203,203, .3);
+    background:#103437;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 15px;
@@ -66,8 +73,8 @@ button{
 }
 
 .nextButton:hover{
-    background: #103437;
-    color:#dccbca;
+    background: #dccbca;
+    color:#103437;
 }
 
 .js-question {
@@ -139,6 +146,10 @@ header p {
     font-size: 70px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+}
 footer p {
     font-size: 12px;
 }
@@ -150,7 +161,7 @@ footer p {
     background-image: url(elements/Cat-1.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right:140px;
     transform: rotate(-22deg);
@@ -163,7 +174,7 @@ footer p {
     background-image: url(elements/Cat-2.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     left: 300px;
     bottom: 300px;
     transform: rotate(-190deg);
@@ -177,7 +188,7 @@ footer p {
     background-image: url(elements/Cat-3.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     transform: rotate(90deg);
     left: 800px;
     top: 15px;
@@ -191,7 +202,7 @@ footer p {
     background-image: url(elements/Cat-4.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right:150px;
     z-index: -2;
@@ -205,7 +216,7 @@ footer p {
     background-image: url(elements/Cat-5.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     left: 300px;
     bottom: 300px;
     transform: rotate(-190deg);
@@ -219,7 +230,7 @@ footer p {
     background-image: url(elements/Cat-6.svg);
     height: 140px;
     width: 140px;
-    position: fixed;
+    position: absolute;
     transform: rotate(-90deg);
     right: -40px;
     top: 160px;
@@ -265,5 +276,7 @@ footer p {
     height: 300px;
     width: 300px;
     border-radius: 160px;
-    border: 20px solid #dccbca;
+    border: 10px solid #dccbca;
+    background-repeat: no-repeat;
+
 }

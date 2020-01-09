@@ -44,6 +44,13 @@ let results = [];
         buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
     }
 
+// event listener for hover effect for A button's
+
+buttonA.forEach(button => button.addEventListener("mouseover", function(){
+    buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
+}));
+
+
 
 // event listener to display results window
     
