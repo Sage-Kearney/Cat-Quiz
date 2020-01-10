@@ -28,7 +28,10 @@ To develop this quiz I used the holy grail - HTML, CSS, & Javascript
 
 ## The process...
 
-- Where it all began. Wireframing 
+Let's start at the beginning...
+  ## Wireframe 
+  In the beginning, I have to say my wireframe was a tad agressive for my bronze level MVP. Right off of the bat I wanted to have a 'scroll' effect with the questions displaying one at a time. Great idea- and I was able to accomplish that look/logic in my silver level, but starting things off as having all of the questions displaying on the page at one time was the best first step for my MVP level app.
+![Wireframe](https://user-images.githubusercontent.com/56275819/72132504-1ec5cf80-334d-11ea-8653-39a6a65ca318.png) 
 
 ## Originally.. (bronze)
 When I first created this quiz, it was pretty basic. All of the content was displayed on the page at the same time. The color pallet was super boooring - white, black, & a touch of grey. The buttons were static. The font was.. readable. The results displayed under all of the content that was already on the page. It worked, which was beautiful in it's own sense, but I knew I could do better for my furry friends. 
@@ -50,6 +53,14 @@ Big shoutout to the following people for helping me overcome all of the hurdles 
 - Stack Overflow
 - Css tricks
 
+
+![Wireframe](https://user-images.githubusercontent.com/56275819/72132504-1ec5cf80-334d-11ea-8653-39a6a65ca318.png)
+
+![Logic Web](https://user-images.githubusercontent.com/56275819/72132507-21c0c000-334d-11ea-98d5-33f94be56e20.png)
+
+![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
+
+![Web Design Mock Up](https://user-images.githubusercontent.com/56275819/72132518-2a18fb00-334d-11ea-8d6e-5829e088d91a.png)
 
 
 
