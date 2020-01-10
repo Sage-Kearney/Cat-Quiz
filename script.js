@@ -39,13 +39,13 @@ let results = [];
     }
     
 // event listener for B button's
-        buttonB.forEach(button => button.addEventListener("click", buttonBClick));
+    buttonB.forEach(button => button.addEventListener("click", buttonBClick));
     
-        function buttonBClick(e) {
-            results.push("B");
-            e.target.style.background = "rgba(220, 203, 203, .3)";
+    function buttonBClick(e) {
+        results.push("B");
+        e.target.style.background = "rgba(220, 203, 203, .3)";
             
-        }
+    }
     
 
 
@@ -251,8 +251,6 @@ let results = [];
         current.style.display = "block";
         nextButton.innerText = "next";
         nextButton.classList.add("new-button-style");
-        // buttonA.forEach(button => button.style.background = "none");
-        // buttonB.forEach(button => button.style.background = "none");
 
 
         if (previous){
