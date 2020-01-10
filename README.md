@@ -57,7 +57,10 @@ So once I was able to get the quiz working, I spruced things up a little bit (fu
 ### Finally (goldish..gold leafed?)
 By this point, the quiz was functioning & starting to look like an actual, legitimate quiz! Yay! But I knew I could spice it up even more. To do this I really dialed in on my CSS, making sure the designs were sleek throughout the entire quiz by utilizing media queries & all sorts of other CSS properties (think margin, padding, alignment, positioning, letter spacing.. all the things). I also sourced images for all of my katz and javascripted an image to appear with the results page by using my event listeners already in place. Lastly, I incorporated cat illustrations that I found online (<a href="https://www.freepik.com/free-photos-vectors/icon">Icon vector created by terdpongvector - www.freepik.com</a>) by Terdpongvector (yep, doesn't get much more professional than that) for the cherry on top! 
 
-![Goldish Screen Rec](https://user-images.githubusercontent.com/56275819/72171348-cae4d600-33a0-11ea-8242-77d3fa0e535a.gif)
+
+![Goldish Screen Recording](https://user-images.githubusercontent.com/56275819/72172264-bd305000-33a2-11ea-8273-3bb56a1170ce.gif)
+
+
 
 ## Going forward
 I am relatively very pleased with how this project turned out, however there are some things I would either add or revisit if I had to do things again..
