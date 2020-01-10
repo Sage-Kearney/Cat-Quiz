@@ -43,9 +43,21 @@ When I first created this quiz, it was pretty basic. All of the content was disp
 
 ## Then (silver)
 So once I was able to get the quiz working, I spruced things up a little bit (functionality wise). With the help of Esin Saribudak & Jennifer Meade, we were able to map out the logic to have one question appear at a time with the incorporation of a 'next' button. Additionallly I was able to add a welcome page, start button, and results page. Things were starting to look pretty legit at that point! But I knew I could do better for my users & I needed to 'prettify' the quiz. So I decided on a color scheme, chose a google font pairing, and slaped together a few graphic elements. But this wasn't the end.
+![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
+
+![Web Design Mock Up](https://user-images.githubusercontent.com/56275819/72132518-2a18fb00-334d-11ea-8d6e-5829e088d91a.png)
+
 
 ## Finally (goldish..gold leafed?)
 By this point, the quiz was functioning & starting to look like an actual, legitimite quiz! Yay! But I knew I could spice it up even more. To do this I really dialed in on my CSS, making sure the designs were sleek throughout the entire quiz by utilizing media querries & all sorts of other CSS properties (think margin, padding, alignment, positioning, letter spacing.. all the things). I also sourced images for all of my katz and javascripted an image to appear with the results page by using my event listeners already in place. Lastly, I incorporated cat illustrations that I found online (<a href="https://www.freepik.com/free-photos-vectors/icon">Icon vector created by terdpongvector - www.freepik.com</a>) by Terdpongvector (yep, doesn't get much more professional than that) for the cherry on top! 
+
+## Going forward
+I am reletively very pleased with how this project turned out, however there are some things I would either add or revisit if I had to do things again..
+- Refracter my code. My code is certainly not dry & I would love to try to condense down that giant if statement, or come up with new logic to that has the same functionality with less lines of code & or code that is easier to add to/manipulate in the future.
+- Css cat animations. For some reason I was having a hard time with the background image & the cat images intermingling with each other. Ideally, I would be able to have cats pooping out of the 'colored blobs' instead of the side of the screen. 
+- I would love love love to figure out a way to add a nice transtion between my questions. 
+- Nix the next button and have the answer buttons carry the functionality of the 'next button. For example, the user would just have to click on the answer to the question & then they would be led to the next question. It would also be nice to incorporate an animation on the button after the user selects the button, but before the next question is displayed.
+- And lastly, I would like to build out the results more- add a message & a link to restart the game.
 
 ## Wouldn't be here without..
 Big shoutout to the following people for helping me overcome all of the hurdles that cropped up during the process of making this quiz! Seriously wouldn't have made it without you guys :) 
@@ -57,12 +69,3 @@ Big shoutout to the following people for helping me overcome all of the hurdles 
 - My GA Squad 
 - Stack Overflow
 - Css tricks
-
-
-
-![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
-
-![Web Design Mock Up](https://user-images.githubusercontent.com/56275819/72132518-2a18fb00-334d-11ea-8d6e-5829e088d91a.png)
-
-
-
