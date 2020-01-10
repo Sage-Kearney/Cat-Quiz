@@ -30,11 +30,14 @@ To develop this quiz I used the holy grail - HTML, CSS, & Javascript
 
 Let's start at the beginning...
 
-Before I created any wireframes or even started dreaming about design elements, I had to sort out the beginning stages of the logic. So pen & paper it was! ..until I realized how much time it would take to write out every potential quiz result. So then to the Illustrator I went & mapped out all the potential results in the form of a giant web. Once I fleshed out all of the results it was much easier to create the logic for the quiz. I used a large (very large) if statement to filter through each event listener.
+Before I created any wireframes or even started dreaming about design elements, I had to sort out the beginning stages of the logic. So pen & paper it was! ..until I realized how much time it would take to write out every potential quiz result. So then to the Illustrator I went & mapped out all the potential results in the form of a giant web. Once I fleshed out all of the results it was much easier to create the logic & ajoining wireframes for the quiz. I used a large (very large) if statement to filter through each event listener.
+![Logic Web](https://user-images.githubusercontent.com/56275819/72132507-21c0c000-334d-11ea-98d5-33f94be56e20.png)
+
   ## Wireframe 
   I have to say my wireframe was a tad agressive for my bronze level MVP. Right off of the bat I wanted to have a 'scroll' effect with the questions displaying one at a time. Great idea- and I was able to accomplish that look/logic in my silver level, but starting things off as having all of the questions displaying on the page at one time was the best first step for my MVP level app. Aside from that, my original wireframe was very do able- everything centered, questions with two options (that would be buttons), and some sort of submit button.
 ![Wireframe](https://user-images.githubusercontent.com/56275819/72132504-1ec5cf80-334d-11ea-8653-39a6a65ca318.png) 
 Once I had the wire
+
 ## Originally.. (bronze)
 When I first created this quiz, it was pretty basic. All of the content was displayed on the page at the same time. The color pallet was super boooring - white, black, & a touch of grey. The buttons were static. The font was.. readable. The results displayed under all of the content that was already on the page. It worked, which was beautiful in it's own sense, but I knew I could do better for my furry friends. 
 
@@ -56,9 +59,6 @@ Big shoutout to the following people for helping me overcome all of the hurdles 
 - Css tricks
 
 
-![Wireframe](https://user-images.githubusercontent.com/56275819/72132504-1ec5cf80-334d-11ea-8653-39a6a65ca318.png)
-
-![Logic Web](https://user-images.githubusercontent.com/56275819/72132507-21c0c000-334d-11ea-98d5-33f94be56e20.png)
 
 ![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
 
