@@ -20,7 +20,7 @@ If you don't identify yourself as a perky, clever young lady, no worries, I stil
 
 
 ## How do I actually take the quiz?
-Great question- just follow this link girlfran https://Sage-Kearney/cat-quiz
+Great question- just follow this link girlfran https://Sage-Kearney.github.io/cat-quiz
 
 # If you are interested in the nitty gritty... 
 
