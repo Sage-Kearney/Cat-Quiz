@@ -45,7 +45,7 @@ When I first created this quiz, it was pretty basic. All of the content was disp
 ## Then (silver)
 So once I was able to get the quiz working, I spruced things up a little bit (functionality wise). With the help of Esin Saribudak & Jennifer Meade, we were able to map out the logic to have one question appear at a time with the incorporation of a 'next' button. Additionallly I was able to add a welcome page, start button, and results page. Things were starting to look pretty legit at that point! But I knew I could do better for my users & I needed to 'prettify' the quiz. So I decided on a color scheme, chose a google font pairing, and slaped together a few graphic elements. But this wasn't the end.
 
-![Silver Gif](https://user-images.githubusercontent.com/56275819/72169892-f1554200-339d-11ea-8c73-52b83d7042b6.gif)
+![Silver Screen Rec](https://user-images.githubusercontent.com/56275819/72171354-cd473000-33a0-11ea-9d10-ade9e43ee59d.gif)
 
 ![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
 
@@ -54,7 +54,7 @@ So once I was able to get the quiz working, I spruced things up a little bit (fu
 
 ## Finally (goldish..gold leafed?)
 By this point, the quiz was functioning & starting to look like an actual, legitimite quiz! Yay! But I knew I could spice it up even more. To do this I really dialed in on my CSS, making sure the designs were sleek throughout the entire quiz by utilizing media querries & all sorts of other CSS properties (think margin, padding, alignment, positioning, letter spacing.. all the things). I also sourced images for all of my katz and javascripted an image to appear with the results page by using my event listeners already in place. Lastly, I incorporated cat illustrations that I found online (<a href="https://www.freepik.com/free-photos-vectors/icon">Icon vector created by terdpongvector - www.freepik.com</a>) by Terdpongvector (yep, doesn't get much more professional than that) for the cherry on top! 
-![Goldish Screen Rec](https://user-images.githubusercontent.com/56275819/72170662-42196a80-339f-11ea-83d6-1cd0ab936182.gif)
+![Goldish Screen Rec](https://user-images.githubusercontent.com/56275819/72171348-cae4d600-33a0-11ea-8242-77d3fa0e535a.gif)
 
 ## Going forward
 I am reletively very pleased with how this project turned out, however there are some things I would either add or revisit if I had to do things again..
