@@ -267,24 +267,4 @@ let results = [];
     }
 
 
-
-
-
-
-
-
-
-
-
-    // User clicks start
-    // Question one displays
-    // User clicks either a or b
-        // result of click gets stored in variable
-        // Question two displays
-    // Repeat until last question(5)
-        // submit button appears
-    // User clicks submit
-    // Results page appears
-
-
         
