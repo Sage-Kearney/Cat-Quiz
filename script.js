@@ -37,27 +37,39 @@ let results = [];
         results.push("A");
         buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
     }
-
-
+    
 // event listener for B button's
-    buttonB.forEach(button => button.addEventListener("click", buttonBClick));
-
-    function buttonBClick() {
-        results.push("B");
-        buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
-    }
+        buttonB.forEach(button => button.addEventListener("click", buttonBClick));
+    
+        function buttonBClick() {
+            results.push("B");
+            buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
+            alert("clicked");
+        }
 
 // event listener for hover effect for A button's
+    buttonA.forEach(button => button.addEventListener("mouseover", hoverOn));
+        function hoverOn(){
+            buttonA.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
+        }
+    
+    buttonA.forEach(button => button.addEventListener("mouseout", hoverOff));
+        function hoverOff(){
+            buttonA.forEach(button => button.style.background = "none");
+        }
+    
 
-// buttonA.forEach(button => button.addEventListener("mouseover", function(event){
-//     buttonA.forEach(event.style.background = "rgba(220, 203, 203, .3)");
 
-//     setTimeout(function(){
-//         event.target.style.background = "";
-//     }, 500);
-//     }, false));
+// event listener for hover effect for B button's
+    // buttonB.forEach(button => button.addEventListener("mouseover", hoverOn));
+    //     function hoverOn() {
+    //         buttonB.forEach(button => button.style.background = "rgba(220, 203, 203, .3)");
+    //     }
 
-
+    // buttonB.forEach(button => button.addEventListener("mouseout", hoverOff));
+    //     function hoverOff() {
+    //         buttonB.forEach(button => button.style.background = "none");
+    //     }
 
 
 // event listener to display results window

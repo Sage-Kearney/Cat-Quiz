@@ -59,8 +59,8 @@ button{
 }
 
 .nextButton:hover{
-    background: #dccbca;
-    color:#103437;
+    background: #103437;
+    color:#dccbca;
 }
 
 .js-question {
