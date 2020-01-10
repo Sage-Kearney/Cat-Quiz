@@ -20,7 +20,7 @@ If you don't identify yourself as a perky, clever young lady, no worries, I stil
 
 
 ## How do I actually take the quiz?
-Great question- all you have to do is click the url located at the top of the page (it should be in blue). Click on that & you are all set!
+Great question- just follow this link girlfran https://Sage-Kearney/cat-quiz
 
 ## If you are interested in the nitty gritty... 
 
@@ -39,7 +39,8 @@ Before I created any wireframes or even started dreaming about design elements, 
 
 
 ## Originally.. (bronze)
-When I first created this quiz, it was pretty basic. All of the content was displayed on the page at the same time. The color pallet was super boooring - white, black, & a touch of grey. The buttons were static. The font was.. readable. The results displayed under all of the content that was already on the page. It worked, which was beautiful in it's own sense, but I knew I could do better for my furry friends. 
+When I first created this quiz, it was pretty basic. All of the content was displayed on the page at the same time. The color pallet was super boooring - white, black, & a touch of grey. The buttons were static. The font was.. readable. The results displayed under all of the content that was already on the page. It worked, which was beautiful in it's own sense, but I knew I could do better for my furry friends.
+![Bronze Level ](https://user-images.githubusercontent.com/56275819/72168286-d7fec680-339a-11ea-993e-bea09095fcc7.png)
 
 ## Then (silver)
 So once I was able to get the quiz working, I spruced things up a little bit (functionality wise). With the help of Esin Saribudak & Jennifer Meade, we were able to map out the logic to have one question appear at a time with the incorporation of a 'next' button. Additionallly I was able to add a welcome page, start button, and results page. Things were starting to look pretty legit at that point! But I knew I could do better for my users & I needed to 'prettify' the quiz. So I decided on a color scheme, chose a google font pairing, and slaped together a few graphic elements. But this wasn't the end.
