@@ -44,6 +44,9 @@ When I first created this quiz, it was pretty basic. All of the content was disp
 
 ## Then (silver)
 So once I was able to get the quiz working, I spruced things up a little bit (functionality wise). With the help of Esin Saribudak & Jennifer Meade, we were able to map out the logic to have one question appear at a time with the incorporation of a 'next' button. Additionallly I was able to add a welcome page, start button, and results page. Things were starting to look pretty legit at that point! But I knew I could do better for my users & I needed to 'prettify' the quiz. So I decided on a color scheme, chose a google font pairing, and slaped together a few graphic elements. But this wasn't the end.
+
+![Silver Gif](https://user-images.githubusercontent.com/56275819/72169892-f1554200-339d-11ea-8c73-52b83d7042b6.gif)
+
 ![Screen Shot 2020-01-10 at 1 57 33 AM](https://user-images.githubusercontent.com/56275819/72132510-25544700-334d-11ea-8702-a1ab6b4db686.png)
 
 ![Web Design Mockup](https://user-images.githubusercontent.com/56275819/72166122-ad127380-3396-11ea-8d92-9db491752cad.png)
