@@ -140,6 +140,7 @@ footer {
     left: 0px;
     right:0px;
 }
+
 footer p {
     font-size: 12px;
 }
@@ -175,7 +176,7 @@ footer a:hover{
         50% {left: -50px;}
     }
 
-    .cat-two {
+.cat-two {
         background-image: url(elements/Cat-2.svg);
         height: 200px;
         width: 200px;
@@ -185,14 +186,14 @@ footer a:hover{
         left: -220px;
         animation-name: catpopup2;
         animation-duration: 5s;
-    }
+}
 
      @keyframes catpopup2 {
         0% {left:-220px}
         50% {left: -40px;}
     }
 
-    .cat-five {
+.cat-five {
         background-image: url(elements/Cat-5.svg);
         height: 200px;
         width: 200px;
@@ -203,7 +204,7 @@ footer a:hover{
         animation-name: catpopup5;
         animation-duration: 5s;
         animation-delay: 13s;
-    }
+}
 
       @keyframes catpopup5 {
         0% {left:-230px;}
@@ -332,10 +333,6 @@ footer a:hover{
     .new-button-style {
         width: 300px;
     }
-
-    /* .button-A:hover, .button-B:hover {
-        width: 300px;
-    } */
 
     .submit {
         width: 300px;
