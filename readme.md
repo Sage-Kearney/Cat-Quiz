@@ -72,6 +72,7 @@ Big shoutout to the following people for helping me overcome all of the hurdles 
 - Jennifer Meade
 - Jerrica Bombadilla
 - Jarred Morgan
-- My GA Squad 
+- My GA Squad
+- Rixio Barrios 
 - Stack Overflow
 - Css tricks
