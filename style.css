@@ -231,6 +231,27 @@ footer a:hover{
 
 /* Media Querries */
 
+@media screen and (max-width:370px){
+    body {
+        overflow: scroll;
+        padding-top: none;
+        border: solid black;
+    }
+
+    .button-A:hover, .button-B:hover{
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 520px ){
     /* start quiz page */
     body{
@@ -264,8 +285,17 @@ footer a:hover{
         width:250px;
     }
 
+    .js-question h2 {
+        padding-top: 20px;
+    }
+    
+    .button-A:hover, .button-B:hover {
+        width: 300px;
+    }
+
     .cat-one {
-        background-image: url(elements/Cat-1.svg);
+        display: none;
+        /* background-image: url(elements/Cat-1.svg);
         height: 140px;
         width: 140px;
         position: absolute;
@@ -273,13 +303,13 @@ footer a:hover{
         top: -2px;
         left: -120px;
         animation-name: catpopup1;
-        animation-duration: 5s;
+        animation-duration: 5s; */
     }
 
-    @keyframes catpopup1 {
+    /* @keyframes catpopup1 {
         0% {left:-120px}
         50% {left: -50px;}
-    }
+    } */
 
     .cat-two {
         background-image: url(elements/Cat-2.svg);
@@ -296,7 +326,7 @@ footer a:hover{
 
      @keyframes catpopup2 {
         0% {left:-120px}
-        50% {left: -40px;}
+        50% {left: -60px;}
     }
 
     .cat-five {
@@ -314,7 +344,7 @@ footer a:hover{
 
       @keyframes catpopup5 {
         0% {left:-130px;}
-        50% {left: -30px;}
+        50% {left: -80px;}
     }
 
     /* Quiz */
@@ -372,7 +402,7 @@ footer a:hover{
         -o-background-size: cover;
         background-size: cover;
         overflow: hidden;
-        padding-top: 150px;
+        /* padding-top: 150px; */
         padding-bottom: 0px;
     }
 
