@@ -26,6 +26,7 @@ const resultsImage = document.querySelector('.result-cat-image');
 const body = document.querySelector('body');
 const imgCredit = document.querySelector('.results-img-src');
 const imgCreditWords = document.querySelector('.img-Credit-words');
+const resultsImageSource = document.querySelector('.results-img-src');
 
 let currentQuestion = 0;
 let results = [];
@@ -58,6 +59,7 @@ let results = [];
         submitButton.style.display = "none";
         resultWindow.style.display = "block";
         body.style.paddingTop = "125px";
+        resultsImageSource.style.display = "inline-block";
         let finalResult = results.join('');
         
         if (finalResult === "AAAAA"){
