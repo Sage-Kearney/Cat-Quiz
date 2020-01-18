@@ -58,7 +58,7 @@ let results = [];
         questionsWindow.style.display = "none";
         submitButton.style.display = "none";
         resultWindow.style.display = "block";
-        body.style.paddingTop = "125px";
+        // body.style.paddingTop = "125px";
         resultsImageSource.style.display = "inline-block";
         let finalResult = results.join('');
         

@@ -233,25 +233,26 @@ footer a:hover{
 
 
 
+
+
+
 /* Media Querries */
 
 @media screen and (max-width:370px){
     body {
-        overflow: scroll;
-        padding-top: none;
-        border: solid black;
+        overflow: auto;
+        padding-top: 0px;
+        /* border: solid black; */
     }
 
+    h2 {
+        padding-top: 0px;
+    }
+    
     .button-A:hover, .button-B:hover{
         width: 100px;
     }
 }
-
-
-
-
-
-
 
 
 
@@ -400,6 +401,7 @@ footer a:hover{
         -o-background-size: cover;
         background-size: cover;
         overflow: hidden;
+        padding-top: 125px;
         padding-bottom: 0px;
     }
 
