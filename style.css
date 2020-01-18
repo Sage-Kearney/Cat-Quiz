@@ -125,6 +125,7 @@ header p {
     font-size: 18px;
 }
 
+
 .results h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -291,6 +292,10 @@ footer a:hover{
     .js-question h2 {
         padding-top: 20px;
     }
+
+    .js-question .question-3 h2{
+    font-size: 29px;
+    }
     
     .button-A:hover, .button-B:hover {
         width: 300px;
@@ -343,6 +348,10 @@ footer a:hover{
         margin: 0 auto;
         padding-top: 60px;
         padding-bottom: 20px;
+    }
+
+    .question-3 h2{
+        font-size: 29px;
     }
 
     .js-question button{
