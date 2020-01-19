@@ -1,17 +1,3 @@
-/* PSEUDO CODE
-    User selects either answer A or answer B
-        answer gets stored in variable named catAnswer after every question
-    
-    Final Question: User selects either answer A or answer B
-    'Looks like you're a..' (Results window appears- display block)
-    catAnswer variable get's checked..
-        if catAnswer = "AAAAA"
-            cat type = whichever cat is associated with that key
-
-        Results h2 innerText = cat type
-
-*/
-
 const buttonA = document.querySelectorAll('.button-A');
 const buttonB = document.querySelectorAll('.button-B');
 const submitButton = document.querySelector('.submit');

@@ -338,6 +338,7 @@ footer a:hover{
         font-size: 50px;
         width: 300px;
         padding: 20px 0px 30px 0px;
+        margin: 0 auto;
     }
 
     .welcomeWindow p {
